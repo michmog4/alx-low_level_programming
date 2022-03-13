@@ -1,17 +1,27 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-#include <stdlib.h>
-#include <time.h>
 int main(void)
 {
-	char a;
-	
-	for (a = 'a'; a < 'e' < 'q' <= 'z'; a++)
-		putchar(a);
+	char x = 'a';
 
+	while (x <= 'z')
+	{
+		if (x == 'e' || x == 'q')
+		{
+			goto p;
+		}
+		else
+			putchar(x);
+p:
+		x++;
+	}
+	putchar('\n');
 return (0);
 }
+
