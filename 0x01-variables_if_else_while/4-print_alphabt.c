@@ -10,15 +10,8 @@ int main(void)
 {
 	char a;
 	
-	for (a = 'a'; a < 'e'; a++)
+	for (a = 'a'; a < 'e' < 'q' <= 'z'; a++)
 		putchar(a);
-	{
-		for (a = 'f'; a < 'q'; a++)
-			putchar(a);
-		{
-			for (a = 'p'; a <= 'z'; a++)
-				putchar(a);
-		}
-	}
+
 return (0);
 }
