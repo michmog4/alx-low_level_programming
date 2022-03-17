@@ -1,15 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - multiplies two intigers 
- *
- * Return: Always 0.
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
 int mul(int a, int b)
 {
-	int product;
-	product = a * b;
-   printf("%d", product); 
-     	return (0);
+	int c;
+
+	c = a * b;
+
+	return (c);
 }
+
