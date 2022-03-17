@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - multiplies two intigers 
  *
  * Return: Always 0.
  */
 int mul(int a, int b)
 {
-   printf("a*b") 
+   printf(a*b) 
      	return (0);
 }
